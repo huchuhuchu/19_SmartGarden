@@ -1,5 +1,5 @@
 <?php header('Content-Type: text/html; charset=utf-8'); ?>
-<br><br><h1 align=center>SMART GARDEN</h1>
+<br><br><h1 align=center>SMART GARDEN11</h1>
 
 <table align=center>
   <tr><td><a href="code/view.php" style='text-decoration:none'>임시 게시판</a></td></tr>
