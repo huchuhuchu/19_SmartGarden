@@ -11,7 +11,7 @@ DHT dht(2, DHT11);
 TFT TFTscreen = TFT(cs, dc, rst);
 
 byte mac[] = { 0x90, 0xA2, 0xDA, 0x0E, 0xF7, 0x47}; // pc와 연결된 아두이노의 mac address
-char server[] = "sssoyoung.dothome.co.kr";
+char server[] = "#";    //서버 도메인
 char ctem[5];
 char chum[5];
 char csoit[5];
@@ -169,7 +169,7 @@ void tfts(int tem, int hum, int soit, int soim2, int soiw){ // tft screen code
 //    client.print("&soiw=");
 //    client.print(soiw);
 //    client.println(" HTTP/1.1");
-//    client.println("Host: sssoyoung.dothome.co.kr");
+//    client.println("Host: #");
 //    client.println("Connection: close");
 //    client.println();
 //  }
