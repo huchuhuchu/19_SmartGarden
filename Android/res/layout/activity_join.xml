@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/TopLogoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/logo_smartfarm"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="125dp"
+            android:onClick="TopLogoBtn"
+            android:contentDescription="@string/todo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/IdtextView"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/id"
+                android:textSize="18sp" />
+            <EditText
+                android:id="@+id/InputID"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/id"
+                android:autofillHints="" />
+            <Button
+                android:id="@+id/LoginCheckBtn"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:background="@android:color/transparent"
+                android:text="중복확인"
+                android:textSize="14sp"
+                android:onClick="LoginCheckBtn"/>
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/PwtextView"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="PW"
+                android:textSize="18sp" />
+            <EditText
+                android:id="@+id/InputPW"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="PASSWORD"
+                android:inputType="textPassword" />
+
+
+        </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/PwtextView2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="PW RE"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/InputPW2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="PASSWORD CHECK"
+            android:inputType="textPassword" />
+
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/NametextView"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="NAME"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/InputNAME"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="NAME"
+            android:autofillHints="" />
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/MailtextView"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="MAIL"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/InputMAIL"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="MAIL"
+            android:inputType="textEmailAddress" />
+        <Button
+            android:id="@+id/MailCheckBtn"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:background="@android:color/transparent"
+            android:text="중복확인"
+            android:textSize="14sp"
+            android:onClick="LoginCheckBtn"/>
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/RegisterSubmitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="120dp"
+            android:background="@drawable/allborder"
+            android:onClick="insert"
+            android:text="REGISTER"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/GoLoginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="120dp"
+            android:background="@drawable/allborder"
+            android:onClick="gologin"
+            android:text="LOGIN"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

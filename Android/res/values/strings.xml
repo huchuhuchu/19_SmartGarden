@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ex1</string>
+    <string name="name">NAME</string>
+    <string name="id">ID</string>
+    <string name="login">LOGIN</string>
+    <string name="todo">TODO</string>
+    <string name="register">REGISTER</string>
+    <string name="pw">pw</string>
+</resources>
