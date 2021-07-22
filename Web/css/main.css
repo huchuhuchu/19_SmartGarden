@@ -1,0 +1,59 @@
+th, td, a, p, button{
+    font-family: 'Nanum Gothic', cursive;
+  }
+  table {
+    border:1px soild #E6E6E6;  /*회색*/
+    border-collapse:collapse;
+  }
+  
+  .bb th{
+    padding:10px;
+    color:#585858;  /*진회색*/
+    border-bottom:3px solid #5FB404; /*녹색*/
+    border-top: 1px solid #FFFFFF;  /*흰색*/
+  }
+  .bb td{
+    padding:10px;
+    border-bottom:1px solid #E6E6E6;  /*회색*/
+  }
+  .bb tr:hover td{
+    color:#FAAC58;  /*주황*/
+  }
+  
+  .cc th{
+    padding:10px;
+    color:#585858;  /*진회색*/
+    border-bottom:3px solid #5FB404; /*녹색*/
+    border-top: 1px solid #E6E6E6;  /*회색*/
+    border-left: 1px solid #E6E6E6;  /*회색*/
+    border-right: 1px solid #E6E6E6;  /*회색*/
+  }
+  .cc td{
+    padding:10px;
+    border-top: 1px solid #E6E6E6;  /*회색*/
+    border-left: 1px solid #E6E6E6;  /*회색*/
+    border-right: 1px solid #E6E6E6;  /*회색*/
+  }
+  
+  /* .cc tr:hover td{color:#585858;} */
+  
+  .wrap div{
+    float:left;
+  }
+  
+  a{
+    color: black;
+  }
+  button {
+    width:170px;
+    background-color: red;
+    border: none;color:#FFFFFF;  /*흰색*/
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px;
+    cursor: pointer;
+  }
+  
